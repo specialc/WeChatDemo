@@ -1,0 +1,144 @@
+@import "../../common/index.wxss";
+@import "../../common/lib/weui.wxss";
+
+.microCampus {
+  margin-top: 0px;
+  height: 100%;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.topView {
+  display: flex; 
+  align-items: center;
+  width: 100%; 
+}
+
+.topView-image-head-view {
+  padding: 10px;
+}
+.topView-image-head {
+  display:block;
+  width: 60px;  
+  height: 60px; 
+  border-radius: 30px; 
+}
+
+.topView-image-next-view {
+  padding: 10px;
+}
+.topView-image-next {
+  position: relative;
+  display:block;   
+  top: 50%;   
+  margin-top: -7px;
+  
+  width: 14px;
+  height: 14px;
+}
+
+.topView-centerView {
+  position: relative;
+  float: left;
+  padding: 10px 10px;
+  width: 100%;    
+  box-sizing: border-box; 
+}
+
+.topView-centerView-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  width: 100%;
+}
+.topView-centerView-text-name {
+  text-align: left;
+  font-size: 19px;
+  color: #333333;
+}
+.topView-centerView-image-gender {
+  display:block;
+  margin-left: 10px; 
+  width: 18px;
+  height: 18px;
+}
+
+.topView-centerView-bottom {
+  width: 100%;
+}
+.topView-centerView-text-personalInfo {
+  text-align: left;
+  font-size: 15px;
+  color: #999999;
+}
+.topView-centerView-text-sign {
+  margin-left: 10px;
+  text-align: left;
+  font-size: 15px;
+  color: #43A2DA;
+}
+
+.centerView {
+  padding: 0px;
+}
+
+.my-list-cell {
+  display: flex;
+  align-items: center;
+  margin: 20rpx 20rpx;
+
+  transition: opacity .3s;
+}
+
+.my-list-cell-image-icon-view {
+  padding: 0rpx 0rpx;
+}
+.my-list-cell-image-icon {
+  display:block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px; 
+}
+
+.my-list-cell-image-next-view {
+  padding: 0px 0px;
+}
+.my-list-cell-image-next {
+  display:block;
+  width: 16px;
+  height: 16px;
+}
+
+.my-cell-centerView {
+  display: flex;
+  width: 100%;
+}
+.my-cell-title-view {
+  width: 100%;
+}
+.my-cell-title {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+.my-cell-details-view {
+  text-align: right;
+  width: 50%;
+}
+.my-cell-details {
+  margin-right: 10px;
+  font-size: 14px;
+  text-align: right;
+  color: #000000;
+}
+
+.separatorView {
+  height: 10px;
+  background-color: #F2F2F2;
+}
+
+.separatorView-view {
+  height: 1px;
+  background-color: #F2F2F2;
+}

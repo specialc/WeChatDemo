@@ -1,0 +1,39 @@
+<view class="news">
+
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <image class="index-logo" src="../../../image/MicroCampus/search.png"></image>
+      <input class="news-search_input" placeholder="搜索"/>
+    </view>
+  </view>
+  <view class='separatorView'></view>
+  <view class='centerView'>
+    <block wx:for-items="{{newsList}}" wx:key="{{news-item.id}}">
+        <view id='{{item.id}}' class='news-list-cell' bindtap=''>
+
+          <view class='news-list-image-head-view'>
+            <image class='news-list-image-head' mode='aspectFill' src='{{item.headUrl}}'></image>
+          </view>
+
+          <view class='news-cell-centerView'>
+            <view class='news-cell-title-view'>
+              <text class='news-cell-title'>{{item.title}}</text>
+            </view>
+
+            <view class='news-cell-details-view'>
+              <text class='news-cell-details'>{{item.details}}</text>
+            </view>
+          </view>
+          
+          <view class='news-cell-time-view'>
+            <text class='news-cell-time'>{{item.time}}</text> 
+          </view>
+
+        </view>
+        <view class='separatorView-view'></view>
+    </block> 
+  </view>
+
+
+      
+</view>

@@ -1,0 +1,68 @@
+<view class="microCampus">
+
+  <view class='separatorView'></view>
+  <view class="topView" style='flex-direction:row;'>
+
+
+    <view class='topView-image-head-view'>
+      <image class="topView-image-head" mode='aspectFill' src="https://upload-images.jianshu.io/upload_images/2625770-6e4a87181c8318be.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></image> 
+    </view>
+
+    <view class='topView-centerView'>
+      <view class='topView-centerView-top'>
+        <text class='topView-centerView-text-name' style='flex-direction:row;'>你瞅啥你瞅啥</text>
+        <image class='topView-centerView-image-gender' mode='aspectFit' src='../../../image/My/nv.png'></image>  
+      </view>
+
+      <view class='topView-centerView-bottom'>
+        <text class='topView-centerView-text-personalInfo'>查看个人资料</text>
+        <text class='topView-centerView-text-sign'>签到</text>  
+      </view> 
+
+    </view>
+
+
+    <view class='topView-image-next-view'>
+      <image class='topView-image-next' mode='aspectFit' src='../../../image/Common/next.png'></image>
+    </view>
+
+
+  </view>
+
+
+  <view class='separatorView'></view>
+
+
+  <!-- 列表  -->
+  <view class='centerView'>
+  
+
+    <block wx:for-items="{{myList}}" wx:key="{{my-item.myListType}}">
+      <view class='my-list-cell' id='{{item.myListType}}' bindtap=''>
+        
+        <view class='my-list-cell-image-icon-view'> 
+          <image class='my-list-cell-image-icon' mode='aspectFit' src='{{item.iconUrl}}'></image>
+        </view>
+
+        <view class='my-cell-centerView'>
+        
+          <view class='my-cell-title-view'>
+            <text class='my-cell-title'>{{item.title}}</text>
+          </view>
+
+          <view class='my-cell-details-view'>
+            <text class='my-cell-details'>{{item.details}}</text>
+          </view>
+
+        </view>
+        <view class='my-list-cell-image-next-view'> 
+          <image class='my-list-cell-image-next' mode='aspectFit' src='../../../image/Common/next.png'></image>
+        </view> 
+      </view>
+      <view class='separatorView-view'></view>
+    </block> 
+
+
+  </view>  
+      
+</view>

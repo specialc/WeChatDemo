@@ -1,0 +1,53 @@
+<view class="microCampus">
+
+  <view class="topView">
+    <image class="topView-image" mode='aspectFill' src="../../../image/top.png"></image>
+  </view>
+
+  <view class="view-search-all">
+    <view class='view-search-show'>
+      <image class="input-search-icon" mode='aspectFit' src="../../../image/MicroCampus/search.png"></image>
+      <input class="input-search" placeholder="搜索"/>
+    </view>
+  </view>
+
+  <view class='centerView'>
+
+
+    <view class='view-left'>
+      <view class='view-recruitment'>
+        <image class='item-icon' mode='aspectFit' src="../../../image/MicroCampus/recruitment.png"></image>
+        <text class='item-text'>招生简章</text>
+      </view>
+
+      <view class='view-cooperation'>
+      <image class='item-icon' mode='aspectFit' src="../../../image/MicroCampus/enterpriseCooperation.png"></image>
+        <text class='item-text'>校企合作</text>
+      
+      </view>
+      <view class='view-job'>
+        <image class='item-icon' mode='aspectFit' src="../../../image/MicroCampus/findWork.png"></image>
+        <text class='item-text'>实习就业</text>
+      
+      </view>
+    </view>
+
+    <view class='view-right'>
+      <view class='view-safeEducation'>
+        <image class='item-icon' mode='aspectFit' src="../../../image/MicroCampus/safetyEducation.png"></image>
+        <text class='item-text'>安全教育</text>
+      
+      </view>
+
+      <view class='view-active'>
+        <image class='item-icon' mode='aspectFit' src="../../../image/MicroCampus/campusActive.png"></image>
+        <text class='item-text'>校园活动</text>
+      
+      </view>
+    </view>
+  </view>
+
+
+  <map></map>
+      
+</view>

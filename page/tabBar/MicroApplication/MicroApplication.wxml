@@ -1,0 +1,32 @@
+<view class="microApplication">
+
+  <view class="topView">
+    <image class="topView-image" mode='aspectFill' src="../../../image/top.png"></image>
+  </view>
+
+  <view class='collection-view' style="flex-direction:column;" wx:for="{{applicationData}}" wx:key="*this">
+
+    <view>
+      <view class='collection-cell-header'>
+        {{item.title}}
+      </view>
+
+      <view class='collection-cell' wx:for="{{item.itemDetails}}" wx:key="*items">
+        
+        <!-- <view url="{{item.url}}" class="collection-cell-navigater" hover-class="weui-grid_active">
+          <image class="weui-grid__icon" src="{{item.items.icon}}" />
+          <view class="weui-grid__label">{{item.items.title}}</view>
+        </view>  -->
+
+        <image class='collection-cell-image' mode='aspectFit' src="{{item.iconUrl}}"></image>
+        <text class='collection-cell-text'>{{item.title}}</text>
+
+      </view> 
+
+
+    </view>
+    
+  </view>
+
+      
+</view>

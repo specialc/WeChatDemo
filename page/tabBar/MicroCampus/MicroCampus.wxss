@@ -1,0 +1,142 @@
+
+@import "../../common/index.wxss";
+@import "../../common/lib/weui.wxss"; 
+
+.microCampus {
+  margin-top: 0px;
+  height: 100%; 
+  margin-left: 0px;
+  width: 100%; 
+}
+
+.topView {
+  padding: 0px;   
+  width: 100%; 
+}
+
+.topView-image { 
+  display:block;
+  width: 100%; 
+  height: 133px;
+}
+
+.view-search-all {
+  padding: 0px 15px;
+  margin-top: -20px;
+}
+
+.view-search-show {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex; 
+  display: flex;  
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  border-radius: 8px;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #CCCCCC;
+
+  background-color: #FFFFFF;
+}
+
+.input-search-icon {
+  margin-left: 10px;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.input-search {
+  margin-left: 10px; 
+  height: 28px;
+  width: 100%;
+  font-size: 14px;
+  
+  background-color: #FFFFFF;
+}
+
+.centerView {
+   display: flex;   
+   margin-top: 10px;
+}
+
+.view-left {
+  width: 50%;
+  padding-right: 5px;
+}
+.view-recruitment {
+  position: relative;
+  float: left;
+  padding: 20px 10px;
+  width: 100%;
+  box-sizing: border-box;
+
+  background-color: #746BCA;
+}
+.view-cooperation {
+  position: relative;
+  float: left;
+  padding: 20px 10px;
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 10px; 
+  background-color: #74C2D3;
+}
+.view-job {
+  position: relative;
+  float: left;
+  padding: 20px 10px;
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 10px;
+  background-color: #7F90D0;
+}
+
+.view-right {
+  width: 50%;
+  padding-left: 5px;
+}
+.view-safeEducation {
+  position: relative;
+  float: left;
+  padding: 40px 10px;  
+  width: 100%;
+  box-sizing: border-box;
+  
+  margin-top: 30px;
+  background-color: #88BFBF;
+}
+.view-active {
+  position: relative;
+  float: left;
+  padding: 20px 10px;
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 10px;
+  background-color: #8EC4E2;
+}
+
+.item-icon {
+  display:block; 
+  margin:0 auto;  
+  width:28px;
+  height:28px;
+}
+
+.item-text {
+  display:block;  
+  margin:0 auto;  
+  text-align:center;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  color: #FFFFFF;
+  font-size: 22px;
+}
+

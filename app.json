@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "page/tabBar/News/News",
+    "page/tabBar/MicroCampus/MicroCampus",
+    "page/tabBar/MicroApplication/MicroApplication",
+    "page/tabBar/My/My"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "演示",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#00ABE2",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/tabBar/News/News",
+        "iconPath": "image/TabBar/news.png",
+        "selectedIconPath": "image/TabBar/news_s.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "page/tabBar/MicroCampus/MicroCampus",
+        "iconPath": "image/TabBar/campus.png",
+        "selectedIconPath": "image/TabBar/campus_s.png",
+        "text": "微校园"
+      },
+      {
+        "pagePath": "page/tabBar/MicroApplication/MicroApplication",
+        "iconPath": "image/TabBar/application.png",
+        "selectedIconPath": "image/TabBar/application_s.png",
+        "text": "微应用"
+      },
+      {
+        "pagePath": "page/tabBar/My/My",
+        "iconPath": "image/TabBar/user.png",
+        "selectedIconPath": "image/TabBar/user_s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "page/component/",
+      "pages": []
+    },
+    {
+      "root": "page/API/",
+      "pages": []
+    }
+  ],
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
